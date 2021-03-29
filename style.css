@@ -1,0 +1,230 @@
+/*******************************BODY*********************************************/
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/********************************HEADER*****************************************/
+
+header {
+    left: 0;
+    right: 0;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: black;
+    font-family: sans-serif;
+}
+
+header a {
+    color: grey;
+    padding: 10px;
+    
+}
+
+header a:hover {
+    color: black;
+
+}
+
+header a:visited {
+    color: grey;
+}
+
+#menu-icon {
+    width: 25px;    
+}
+
+@media (min-width: 10px) {
+   #menu {
+     display: none;
+    }
+}
+
+@media (max-width: 1280px) {
+   #logo {
+     font-size: 35px;
+     font-weight: 400;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo {
+      font-size: 35px;
+      font-weight: 400;
+    
+    }
+}
+
+@media (max-width: 468px) {
+    #logo {
+      font-size: 35px;
+      font-weight: 400;
+      position: absolute;
+    }
+}
+
+/*************************HERO SECTION************************************************/
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#hero-section {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+#hero-section h4 {
+    background-color: rgb(59, 136, 97);
+    padding: 18px;
+    font-size: 25px;
+}
+
+@media (min-width: 1280px) {
+    #slogan h4 {
+     font-size: 25px;
+     padding: 18px;
+     margin-top: 40px;
+     margin-left: 40px;
+
+    }
+}
+
+ @media (max-width: 768px) {
+    #slogan h4{
+     font-size: 20px;
+     padding: 18px;
+     margin-top: 40px;
+     margin-left: 120px;
+    }
+}
+
+ @media (max-width: 468px) {
+    #slogan h4{
+     font-size: 18px;
+     padding: 16px;
+     margin-top: 120px;
+     margin-left: 15px;
+    }
+}
+
+/****************************ICON SECTION********************************************/
+
+#icon-section {
+    background-color: whitesmoke;
+    background-size: 100vh;
+}
+
+#icon-section img {
+    padding-top: 40px;
+    padding-bottom: 40px;    
+}
+
+/**************************INTRO SECTION-1********************************************/
+
+#intro-section-1 h3 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#intro-section-1 {
+    background-color: whitesmoke;
+    background-size: 100vh;
+}
+
+#intro-section-1 img {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+
+/****************************INTRO-SECTION-2******************************************/
+
+#intro-section-2 h3 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#intro-section-2 {
+    background-color: whitesmoke;
+    background-size: 100vh;
+}
+
+#intro-section-2 p {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#intro-section-2 img {
+    padding: 5px;
+    margin: 0 auto;
+    background-position: center;
+}
+
+/************************CONTACT-INFO-SECTION ****************************************/
+
+#contact-info-section {
+    background-color: rgb(29, 29, 31);
+    box-sizing: content-box;
+}
+
+#My-Website h3 {
+    color: white;
+}
+
+#My-Website p {
+    color:grey;    
+}
+
+#Recent-Post h3 {
+    color: white;
+    border-bottom: 1px solid grey;
+    padding-bottom: 18px;
+}
+
+#Recent-Post p {
+    display: block;
+    color: lightgrey;
+    border-bottom: 1px solid grey;
+}
+
+#Recent-Work h3 {
+    color: white;
+    border-bottom: 1px solid grey;
+    padding-bottom: 18px;
+}
+
+#Recent-Work p {
+    display: block;
+    color: lightgrey;
+    border-bottom: 1px solid grey;
+}
+
+#contact-info-section p {
+    text-align: left;
+}
+
+/****************************FOOTER**************************************************/
+
+footer {
+    background-color: black;    
+}
+
+#Copy-right {
+    color: grey;
+}
